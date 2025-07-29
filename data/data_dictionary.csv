@@ -1,0 +1,30 @@
+Column,Description
+hotel,Type of hotel (Resort Hotel or City Hotel)
+is_canceled,"Booking cancellation status (1 = canceled, 0 = not canceled)"
+lead_time,Number of days between booking and arrival
+arrival_date,Combined and cleaned arrival date
+stays_in_weekend_nights,Number of weekend nights (Saturday/Sunday) stayed
+stays_in_week_nights,Number of week nights (Monday–Friday) stayed
+adults,Number of adults
+children,Number of children
+babies,Number of babies
+meal,"Type of meal booked (BB, HB, etc.)"
+country,Country of origin (ISO Alpha-2 format)
+market_segment,"Market segment (e.g., Direct, Online TA)"
+distribution_channel,"How booking was made (e.g., TA/TO, Direct)"
+is_repeated_guest,Indicates if the guest has booked before
+previous_cancellations,Number of previous cancellations by the customer
+previous_bookings_not_canceled,Number of previous successful bookings
+reserved_room_type,Room type reserved by the customer
+assigned_room_type,Room type assigned at check-in
+booking_changes,Number of changes to the booking
+deposit_type,Type of deposit paid
+agent,Agent ID through which the booking was made
+company,Company ID (if applicable)
+days_in_waiting_list,Number of days the booking was on the waiting list
+customer_type,"Type of customer (e.g., Contract, Group)"
+adr,Average Daily Rate (amount paid per night)
+required_car_parking_spaces,Number of car parking spaces required
+total_of_special_requests,Number of special requests made
+reservation_status,"Status of reservation (e.g., Check-Out, Canceled)"
+reservation_status_date,Date on which the last reservation status was updated
